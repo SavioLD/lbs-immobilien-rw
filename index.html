@@ -14,8 +14,13 @@
   <meta property="og:title" content="Kapitalanlage Berlin – Mehrfamilienhaus" />
   <meta property="og:description" content="Exklusives Mehrfamilienhaus in Berlin als Kapitalanlage. Jetzt unverbindlich das Exposé anfordern." />
   <meta property="og:locale" content="de_DE" />
-  <!-- TODO: og:image ergänzen, sobald Objektfoto vorliegt (empfohlen 1200x630px) -->
-  <!-- <meta property="og:image" content="assets/objekt-titelbild.jpg" /> -->
+  <meta property="og:image" content="assets/8.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Investmentchance Berlin – Mehrfamilienhaus" />
+  <meta name="twitter:description" content="16 Wohneinheiten in Berlin-Oberschöneweide. Jetzt Exposé anfordern." />
+  <meta name="twitter:image" content="assets/8.jpg" />
+  <!-- Hinweis: Für zuverlässige Meta/Facebook-Vorschau sollte og:image eine ABSOLUTE URL
+       sein (z. B. https://DEINE-DOMAIN/assets/8.jpg), sobald die Domain feststeht. -->
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
 
@@ -131,35 +136,21 @@
             </div>
           </div>
 
-          <div class="field-row">
-            <div class="field">
-              <label for="stadt">Region / Stadt *</label>
-              <select id="stadt" name="Region" required>
-                <option value="">Bitte wählen</option>
-                <option>Zürich</option>
-                <option>Basel</option>
-                <option>Genf</option>
-                <option>Frankfurt am Main</option>
-                <option>Stuttgart</option>
-                <option>München</option>
-                <option>Hamburg</option>
-                <option>Berlin</option>
-                <option>Wien</option>
-                <option>Andere</option>
-              </select>
-            </div>
-            <div class="field">
-              <label for="volumen">Investitionsvolumen</label>
-              <select id="volumen" name="Investitionsvolumen">
-                <option value="">Bitte wählen</option>
-                <option>bis 500.000 €</option>
-                <option>500.000 – 1 Mio. €</option>
-                <option>1 – 3 Mio. €</option>
-                <option>3 – 5 Mio. €</option>
-                <option>über 5 Mio. €</option>
-                <option>noch offen</option>
-              </select>
-            </div>
+          <div class="field">
+            <label for="stadt">Region / Stadt *</label>
+            <select id="stadt" name="Region" required>
+              <option value="">Bitte wählen</option>
+              <option>Zürich</option>
+              <option>Basel</option>
+              <option>Genf</option>
+              <option>Frankfurt am Main</option>
+              <option>Stuttgart</option>
+              <option>München</option>
+              <option>Hamburg</option>
+              <option>Berlin</option>
+              <option>Wien</option>
+              <option>Andere</option>
+            </select>
           </div>
 
           <div class="field">
@@ -215,10 +206,21 @@
   <section class="section section-alt" id="objekt">
     <div class="container objekt-grid">
       <div class="objekt-media">
-        <!-- TODO: Objektfotos einsetzen. Datei nach assets/ legen und
-             das Platzhalter-DIV durch <img src="assets/objekt-1.jpg" alt="Mehrfamilienhaus Berlin" /> ersetzen. -->
-        <div class="media-placeholder">
-          <span>Objektfoto<br />wird ergänzt</span>
+        <figure class="gallery">
+          <img id="gallery-main" src="assets/8.jpg" alt="Straßenansicht des Mehrfamilienhauses in Berlin-Oberschöneweide"
+               decoding="async" loading="lazy" />
+          <figcaption id="gallery-caption">Straßenansicht</figcaption>
+        </figure>
+        <div class="gallery-thumbs" role="group" aria-label="Weitere Objektfotos">
+          <button type="button" class="thumb is-active" data-src="assets/8.jpg" data-caption="Straßenansicht" aria-label="Straßenansicht anzeigen">
+            <img src="assets/8.jpg" alt="Straßenansicht der Fassade" loading="lazy" decoding="async" />
+          </button>
+          <button type="button" class="thumb" data-src="assets/5.jpg" data-caption="Begrünter Innenhof" aria-label="Innenhof anzeigen">
+            <img src="assets/5.jpg" alt="Begrünter Innenhof mit Garten" loading="lazy" decoding="async" />
+          </button>
+          <button type="button" class="thumb" data-src="assets/14.jpg" data-caption="Historisches Treppenhaus" aria-label="Treppenhaus anzeigen">
+            <img src="assets/14.jpg" alt="Historisches Treppenhaus mit Bleiglasfenster" loading="lazy" decoding="async" />
+          </button>
         </div>
       </div>
       <div class="objekt-info">

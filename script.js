@@ -19,6 +19,20 @@ document.addEventListener("DOMContentLoaded", function () {
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+  // Bildergalerie: Hauptbild per Thumbnail wechseln
+  var galleryMain = document.getElementById("gallery-main");
+  var galleryCaption = document.getElementById("gallery-caption");
+  var thumbs = document.querySelectorAll(".gallery-thumbs .thumb");
+  thumbs.forEach(function (thumb) {
+    thumb.addEventListener("click", function () {
+      if (galleryMain) galleryMain.src = thumb.getAttribute("data-src");
+      if (galleryMain) galleryMain.alt = thumb.querySelector("img") ? thumb.querySelector("img").alt : "";
+      if (galleryCaption) galleryCaption.textContent = thumb.getAttribute("data-caption") || "";
+      thumbs.forEach(function (t) { t.classList.remove("is-active"); });
+      thumb.classList.add("is-active");
+    });
+  });
+
   var form = document.getElementById("lead-form");
   if (!form) return;
 

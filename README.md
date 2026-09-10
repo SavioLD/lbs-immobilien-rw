@@ -32,10 +32,13 @@ lbs-immosw.de/impressum. Kein Logo (wie gewünscht) – stattdessen Namens-Wortm
 - → Danach kommt jede Formular-Anfrage automatisch als E-Mail an. Solange kein Key
   hinterlegt ist, zeigt das Formular einen entsprechenden Hinweis an.
 
-### 2. Bilder (optional, aber empfohlen)
-- **Objektfotos** in `assets/` legen und im Bereich „Das Objekt" die Platzhalter-Box durch
-  `<img src="assets/objekt-1.jpg" …>` ersetzen.
-- **Titelbild** für die Werbeanzeigen-Vorschau (`og:image` im `<head>`, 1200×630 px).
+### 2. Bilder
+- ✅ **Objektfotos** eingebunden (Galerie im Bereich „Das Objekt": Straßenansicht,
+  Innenhof, Treppenhaus – `assets/5.jpg`, `8.jpg`, `14.jpg`). Weitere Bilder einfach
+  als zusätzliche `.thumb`-Buttons ergänzen.
+- ✅ **Titelbild** für die Anzeigen-Vorschau gesetzt (`og:image` = `assets/8.jpg`).
+  → Für zuverlässige Meta/Facebook-Previews auf eine **absolute URL** umstellen,
+  sobald die Domain feststeht (z. B. `https://DEINE-DOMAIN/assets/8.jpg`).
 - Optional: Foto von Bernhard Wenzler im Bereich „Ihr Ansprechpartner".
 
 ### 3. Datenschutz prüfen
