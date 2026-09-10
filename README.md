@@ -11,49 +11,43 @@ Anfragen aus dem Formular werden **per E-Mail** an den Makler zugestellt (kein e
 | `index.html` | Landingpage inkl. Anfrageformular |
 | `styles.css` | Design / Layout |
 | `script.js` | Formular-Validierung + E-Mail-Versand (Web3Forms) |
-| `impressum.html` | Impressum (Vorlage – ausfüllen) |
-| `datenschutz.html` | Datenschutzerklärung (Vorlage – ausfüllen) |
+| `datenschutz.html` | Datenschutzerklärung (DSGVO-Vorlage) |
 | `assets/favicon.svg` | Favicon (Platzhalter „BW") |
 
 ---
 
-## ✅ Was noch gebraucht wird (Checkliste vor dem Livegang)
+## Stand
 
-Die Seite ist technisch fertig. Damit sie „scharf" geschaltet werden kann, fehlen nur noch die
-echten Inhalte. Alle Stellen sind im Code mit `[ … ]` bzw. `TODO` markiert.
+**Bereits eingepflegt:** Objektdaten (16 WE, Berlin-Oberschöneweide, Wohn-/Grundstücksfläche,
+Baujahr, Jahresmiete, Angebotspreis, Energieausweis, Modernisierungen), Kontaktdaten
+(Tel. +49 171 7785713, bernhard.wenzler@lbs-sw.de), Impressum verlinkt extern auf
+lbs-immosw.de/impressum. Kein Logo (wie gewünscht) – stattdessen Namens-Wortmarke.
 
-### 1. E-Mail-Benachrichtigung aktivieren (wichtigster Punkt)
+## ✅ Was noch fehlt (vor dem Livegang)
+
+### 1. E-Mail-Benachrichtigung aktivieren (der eine wichtige Schritt)
 - Kostenloses Konto anlegen auf **https://web3forms.com** (nur eine E-Mail-Adresse nötig).
-- Als Empfänger die E-Mail-Adresse hinterlegen, an die Anfragen gehen sollen (Bernhards Postfach).
+- Als Empfänger `bernhard.wenzler@lbs-sw.de` hinterlegen.
 - Den erzeugten **Access Key** in `script.js` bei `WEB3FORMS_ACCESS_KEY` eintragen.
-- → Danach kommt jede Formular-Anfrage automatisch als E-Mail an.
-  (Alternativen wie Formspree o. Ä. sind ebenso möglich – dann Endpoint in `script.js` anpassen.)
+- → Danach kommt jede Formular-Anfrage automatisch als E-Mail an. Solange kein Key
+  hinterlegt ist, zeigt das Formular einen entsprechenden Hinweis an.
 
-### 2. Objektdaten des Berliner Mehrfamilienhauses
-In `index.html` (Bereiche „Hero" und „Objektdaten") ersetzen:
-- Anzahl Wohn-/Gewerbeeinheiten, Wohnfläche, Baujahr, Bezirk/Lage
-- Bruttomietrendite / Jahresnettomiete
-- Kaufpreis (aktuell „auf Anfrage") – je nach Wunsch
-- **Objektfotos** in `assets/` legen und die Platzhalter-Boxen durch `<img>` ersetzen
-- Optional: Titelbild für die Werbeanzeigen-Vorschau (`og:image`, 1200×630 px)
-
-### 3. Logo & Kontaktdaten
-- Logo als `assets/logo.svg` (oder `.png`) hinterlegen und im Header die Wortmarke ersetzen
-  (Kommentar `TODO: Logo` in `index.html`).
-- Echte **Telefonnummer** und **E-Mail** an allen `[+49 …]` / `[info@ …]`-Stellen eintragen
-  (Header, Ansprechpartner-Bereich, Footer, Rechtsseiten).
+### 2. Bilder (optional, aber empfohlen)
+- **Objektfotos** in `assets/` legen und im Bereich „Das Objekt" die Platzhalter-Box durch
+  `<img src="assets/objekt-1.jpg" …>` ersetzen.
+- **Titelbild** für die Werbeanzeigen-Vorschau (`og:image` im `<head>`, 1200×630 px).
 - Optional: Foto von Bernhard Wenzler im Bereich „Ihr Ansprechpartner".
 
-### 4. Rechtstexte (Pflicht für Werbeanzeigen!)
-- `impressum.html`: alle `[ … ]`-Felder ausfüllen (Name, Anschrift, § 34c GewO-Angaben, USt-ID …).
-- `datenschutz.html`: an tatsächlich genutzte Dienste anpassen (v. a. **falls Meta-Pixel / Google
-  Ads Tracking** eingesetzt wird → Tracking-Abschnitt + ggf. Cookie-Banner ergänzen).
-- Hinweiskästen (gelb) nach dem Ausfüllen entfernen.
+### 3. Datenschutz prüfen
+- `datenschutz.html` ist als DSGVO-Vorlage mit den echten Kontaktdaten hinterlegt.
+- **Falls Meta-Pixel / Google-Ads-Tracking** eingesetzt wird → Tracking-Abschnitt ergänzen
+  und ein Cookie-Banner einbauen. Alternativ kann auf die offizielle Datenschutzseite von
+  lbs-immosw.de verlinkt werden (dann Link im Footer + im Formular anpassen).
 
-### 5. Domain & Hosting
+### 4. Domain & Hosting
 - Einfachste Variante: **GitHub Pages** aktivieren (Settings → Pages → Branch `main`).
   Die Datei `.nojekyll` liegt bereits bei.
-- Eigene Domain (z. B. `investment-berlin.de`) kann per `CNAME` verbunden werden.
+- Eigene Domain kann per `CNAME` verbunden werden.
 
 ---
 

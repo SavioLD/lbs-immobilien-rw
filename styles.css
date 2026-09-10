@@ -235,6 +235,13 @@ a { color: var(--gold-dark); }
 .objekt-data > div { display: flex; justify-content: space-between; gap: 12px; padding: 11px 4px; border-bottom: 1px solid var(--line); }
 .objekt-data dt { color: var(--muted); font-size: .9rem; margin: 0; }
 .objekt-data dd { margin: 0; font-weight: 600; color: var(--ink); text-align: right; }
+.objekt-mods-title { font-weight: 700; color: var(--navy); margin: 4px 0 10px; }
+.objekt-mods { list-style: none; padding: 0; margin: 0 0 26px; display: grid; gap: 9px; }
+.objekt-mods li { position: relative; padding-left: 26px; color: var(--muted); }
+.objekt-mods li::before {
+  content: "✓"; position: absolute; left: 0; top: 0;
+  color: var(--gold-dark); font-weight: 700;
+}
 
 /* Makler */
 .makler { display: grid; grid-template-columns: 160px 1fr; gap: 40px; align-items: center; }
