@@ -25,6 +25,18 @@ document.addEventListener("DOMContentLoaded", function () {
   var accessKeyInput = document.getElementById("access_key");
   if (accessKeyInput) accessKeyInput.value = WEB3FORMS_ACCESS_KEY;
 
+  // Mobile Aktionsleiste ausblenden, sobald das Formular sichtbar wird
+  var mobileBar = document.getElementById("mobile-bar");
+  var anfrageCard = document.getElementById("anfrage");
+  if (mobileBar && anfrageCard && "IntersectionObserver" in window) {
+    var barObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        mobileBar.classList.toggle("hidden", entry.isIntersecting);
+      });
+    }, { threshold: 0.2 });
+    barObserver.observe(anfrageCard);
+  }
+
   var resultBox = document.getElementById("form-result");
   var submitBtn = document.getElementById("submit-btn");
 
@@ -102,6 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Wir haben Ihre Nachricht erhalten und melden uns zeitnah persönlich bei Ihnen."
         );
         submitBtn.style.display = "none";
+        if (mobileBar) mobileBar.classList.add("hidden");
       } else {
         showResult(
           "error",

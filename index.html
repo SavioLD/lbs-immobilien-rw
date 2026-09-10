@@ -2,7 +2,9 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#14243b" />
+  <meta name="format-detection" content="telephone=yes" />
   <title>Investmentchance Berlin – Mehrfamilienhaus, 16 Einheiten | Bernhard Wenzler Immobilien</title>
   <meta name="description" content="Gepflegtes Mehrfamilienhaus mit 16 Wohneinheiten in Berlin-Oberschöneweide (Treptow-Köpenick) als Kapitalanlage. Jahresmiete ca. 181.000 €, Angebotspreis 3.200.000 €. Jetzt unverbindlich Exposé anfordern." />
   <meta name="robots" content="index, follow" />
@@ -48,7 +50,7 @@
 
       <div class="hero-copy">
         <p class="eyebrow">Exklusive Kapitalanlage · Berlin-Oberschöneweide</p>
-        <h1>Mehrfamilienhaus&nbsp;in&nbsp;Berlin<br />mit&nbsp;16&nbsp;Wohneinheiten</h1>
+        <h1>Mehrfamilienhaus in Berlin <span class="nowrap">mit 16 Wohneinheiten</span></h1>
         <p class="lead">
           Gepflegtes Mehrfamilienhaus in ruhiger Lage im Bezirk Treptow-Köpenick, unweit der neuen
           Spreeuferpromenade. Ein solides Investment in gefragter Berliner Lage mit zusätzlichem
@@ -125,7 +127,7 @@
             </div>
             <div class="field">
               <label for="telefon">Telefon</label>
-              <input type="tel" id="telefon" name="Telefon" autocomplete="tel" />
+              <input type="tel" id="telefon" name="Telefon" autocomplete="tel" inputmode="tel" />
             </div>
           </div>
 
@@ -171,7 +173,7 @@
             gelesen und willige ein, dass meine Angaben zur Kontaktaufnahme gespeichert und verarbeitet werden. *</span>
           </label>
 
-          <button type="submit" class="btn btn-primary btn-block" id="submit-btn">Exposé anfordern</button>
+          <button type="submit" class="btn btn-primary btn-block" id="submit-btn" enterkeyhint="send">Exposé anfordern</button>
           <p class="form-note">* Pflichtfeld. Ihre Daten werden vertraulich behandelt und nicht an Dritte weitergegeben.</p>
 
           <div class="form-result" id="form-result" role="status" aria-live="polite" hidden></div>
@@ -290,6 +292,14 @@
       <p class="footer-copy">© <span id="year"></span> Bernhard Wenzler Immobilien. Alle Rechte vorbehalten.</p>
     </div>
   </footer>
+
+  <!-- Feste Aktionsleiste (nur mobil) -->
+  <div class="mobile-bar" id="mobile-bar">
+    <a href="tel:+491717785713" class="mobile-bar-call" aria-label="Bernhard Wenzler anrufen">
+      <span aria-hidden="true">📞</span> Anrufen
+    </a>
+    <a href="#anfrage" class="mobile-bar-cta">Exposé anfordern</a>
+  </div>
 
   <script src="script.js"></script>
 </body>
