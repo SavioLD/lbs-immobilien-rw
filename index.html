@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kapitalanlage Berlin – Mehrfamilienhaus | Bernhard Wenzler Immobilien</title>
+  <meta name="description" content="Exklusives Mehrfamilienhaus in Berlin als Kapitalanlage. Für Investoren aus Zürich, Frankfurt, Stuttgart und der DACH-Region. Jetzt unverbindlich Exposé anfordern – Bernhard Wenzler Immobilien, Rottweil." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Social (für Werbeanzeigen-Vorschau) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kapitalanlage Berlin – Mehrfamilienhaus" />
+  <meta property="og:description" content="Exklusives Mehrfamilienhaus in Berlin als Kapitalanlage. Jetzt unverbindlich das Exposé anfordern." />
+  <meta property="og:locale" content="de_DE" />
+  <!-- TODO: og:image ergänzen, sobald Objektfoto vorliegt (empfohlen 1200x630px) -->
+  <!-- <meta property="og:image" content="assets/objekt-titelbild.jpg" /> -->
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Bernhard Wenzler Immobilien – Startseite">
+        <!-- TODO: Logo hier einsetzen. Datei nach assets/logo.svg (oder .png) legen und
+             die folgende Wortmarke durch <img src="assets/logo.svg" alt="Bernhard Wenzler Immobilien" class="brand-logo" /> ersetzen. -->
+        <span class="brand-name">Bernhard Wenzler</span>
+        <span class="brand-sub">Immobilien · Rottweil</span>
+      </a>
+      <nav class="header-nav">
+        <a href="tel:+4900000000000" class="header-phone">
+          <!-- TODO: echte Telefonnummer eintragen -->
+          <span class="phone-label">Beratung:</span> +49 (0) 000 000000
+        </a>
+        <a href="#anfrage" class="btn btn-primary btn-sm">Exposé anfordern</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO / FORM ===================== -->
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <div class="hero-copy">
+        <p class="eyebrow">Exklusive Kapitalanlage · Berlin</p>
+        <h1>Mehrfamilienhaus&nbsp;in&nbsp;Berlin<br />als&nbsp;renditestarke Kapitalanlage</h1>
+        <p class="lead">
+          Ein gepflegtes Mehrfamilienhaus in gefragter Berliner Lage – diskret vermittelt für
+          private und institutionelle Investoren aus Zürich, Frankfurt, Stuttgart und der gesamten
+          DACH-Region.
+        </p>
+
+        <ul class="hero-usps">
+          <li>Substanzstarke Immobilie in wachstumsstarkem Markt</li>
+          <li>Attraktives Verhältnis von Kaufpreis zu Mietertrag</li>
+          <li>Persönliche, diskrete Betreuung – Exposé auf Anfrage</li>
+        </ul>
+
+        <div class="hero-facts">
+          <div class="fact">
+            <span class="fact-value">Berlin</span>
+            <span class="fact-label">Standort</span>
+          </div>
+          <div class="fact">
+            <!-- TODO: echte Zahl eintragen -->
+            <span class="fact-value">[XX] Einheiten</span>
+            <span class="fact-label">Wohn-/Gewerbeeinheiten</span>
+          </div>
+          <div class="fact">
+            <!-- TODO: echte Zahl eintragen -->
+            <span class="fact-value">ca. [XX] % p.a.</span>
+            <span class="fact-label">Bruttomietrendite</span>
+          </div>
+          <div class="fact">
+            <span class="fact-value">Auf Anfrage</span>
+            <span class="fact-label">Kaufpreis</span>
+          </div>
+        </div>
+
+        <a href="#anfrage" class="btn btn-primary btn-lg hero-cta-mobile">Jetzt Exposé anfordern</a>
+      </div>
+
+      <!-- ===================== ANFRAGE-FORMULAR ===================== -->
+      <div class="form-card" id="anfrage">
+        <h2 class="form-title">Exposé &amp; Detailinfos anfordern</h2>
+        <p class="form-intro">Unverbindlich und diskret. Wir melden uns persönlich bei Ihnen.</p>
+
+        <form id="lead-form" novalidate>
+          <!-- Web3Forms Pflichtfeld: Access Key. Wird per script.js gesetzt. -->
+          <input type="hidden" name="access_key" id="access_key" value="" />
+          <input type="hidden" name="subject" value="Neue Investoren-Anfrage – Mehrfamilienhaus Berlin" />
+          <input type="hidden" name="from_name" value="Landingpage – Kapitalanlage Berlin" />
+          <!-- Honeypot gegen Spam (unsichtbar) -->
+          <input type="checkbox" name="botcheck" class="hp-field" tabindex="-1" autocomplete="off" />
+
+          <div class="field-row">
+            <div class="field field-anrede">
+              <label for="anrede">Anrede</label>
+              <select id="anrede" name="Anrede">
+                <option value="">—</option>
+                <option>Herr</option>
+                <option>Frau</option>
+                <option>Divers</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="vorname">Vorname *</label>
+              <input type="text" id="vorname" name="Vorname" autocomplete="given-name" required />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="nachname">Nachname *</label>
+            <input type="text" id="nachname" name="Nachname" autocomplete="family-name" required />
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="email">E-Mail *</label>
+              <input type="email" id="email" name="E-Mail" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="telefon">Telefon</label>
+              <input type="tel" id="telefon" name="Telefon" autocomplete="tel" />
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="stadt">Region / Stadt *</label>
+              <select id="stadt" name="Region" required>
+                <option value="">Bitte wählen</option>
+                <option>Zürich</option>
+                <option>Basel</option>
+                <option>Genf</option>
+                <option>Frankfurt am Main</option>
+                <option>Stuttgart</option>
+                <option>München</option>
+                <option>Hamburg</option>
+                <option>Berlin</option>
+                <option>Wien</option>
+                <option>Andere</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="volumen">Investitionsvolumen</label>
+              <select id="volumen" name="Investitionsvolumen">
+                <option value="">Bitte wählen</option>
+                <option>bis 500.000 €</option>
+                <option>500.000 – 1 Mio. €</option>
+                <option>1 – 3 Mio. €</option>
+                <option>3 – 5 Mio. €</option>
+                <option>über 5 Mio. €</option>
+                <option>noch offen</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="nachricht">Ihre Nachricht (optional)</label>
+            <textarea id="nachricht" name="Nachricht" rows="3" placeholder="Womit können wir Ihnen helfen?"></textarea>
+          </div>
+
+          <label class="consent">
+            <input type="checkbox" id="consent" name="Einwilligung Datenschutz" value="Ja" required />
+            <span>Ich habe die <a href="datenschutz.html" target="_blank" rel="noopener">Datenschutzerklärung</a>
+            gelesen und willige ein, dass meine Angaben zur Kontaktaufnahme gespeichert und verarbeitet werden. *</span>
+          </label>
+
+          <button type="submit" class="btn btn-primary btn-block" id="submit-btn">Exposé anfordern</button>
+          <p class="form-note">* Pflichtfeld. Ihre Daten werden vertraulich behandelt und nicht an Dritte weitergegeben.</p>
+
+          <div class="form-result" id="form-result" role="status" aria-live="polite" hidden></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== VORTEILE ===================== -->
+  <section class="section" id="vorteile">
+    <div class="container">
+      <p class="section-eyebrow">Warum diese Investition</p>
+      <h2 class="section-title">Solide Werte. Starker Standort.</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-icon">📈</div>
+          <h3>Wertstabiler Markt</h3>
+          <p>Berlin zählt zu den nachfragestärksten Immobilienmärkten Europas – mit anhaltendem
+             Zuzug und angespanntem Wohnungsangebot.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🏢</div>
+          <h3>Substanz &amp; Ertrag</h3>
+          <p>Ein Mehrfamilienhaus verbindet laufende Mieteinnahmen mit langfristigem
+             Wertsteigerungspotenzial – ideal zur Vermögensbildung.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🤝</div>
+          <h3>Persönlich &amp; diskret</h3>
+          <p>Von der ersten Anfrage bis zum Notartermin: eine feste Ansprechperson,
+             verlässliche Kommunikation, absolute Vertraulichkeit.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== OBJEKTDATEN ===================== -->
+  <section class="section section-alt" id="objekt">
+    <div class="container objekt-grid">
+      <div class="objekt-media">
+        <!-- TODO: Objektfotos einsetzen. Datei nach assets/ legen und
+             das Platzhalter-DIV durch <img src="assets/objekt-1.jpg" alt="Mehrfamilienhaus Berlin" /> ersetzen. -->
+        <div class="media-placeholder">
+          <span>Objektfoto<br />wird ergänzt</span>
+        </div>
+      </div>
+      <div class="objekt-info">
+        <p class="section-eyebrow">Das Objekt</p>
+        <h2 class="section-title">Mehrfamilienhaus in Berlin</h2>
+        <p>Ein interessantes Anlageobjekt in etablierter Lage. Die vollständigen Objektdaten,
+           Mietaufstellung und Fotos erhalten Sie mit dem Exposé nach Ihrer Anfrage.</p>
+        <dl class="objekt-data">
+          <!-- TODO: alle Werte in Klammern durch echte Objektdaten ersetzen -->
+          <div><dt>Objektart</dt><dd>Mehrfamilienhaus</dd></div>
+          <div><dt>Lage</dt><dd>Berlin, [Bezirk]</dd></div>
+          <div><dt>Wohneinheiten</dt><dd>[XX]</dd></div>
+          <div><dt>Wohnfläche gesamt</dt><dd>ca. [XXX] m²</dd></div>
+          <div><dt>Baujahr</dt><dd>[XXXX]</dd></div>
+          <div><dt>Jahresnettomiete</dt><dd>ca. [XXX.XXX] €</dd></div>
+          <div><dt>Kaufpreis</dt><dd>auf Anfrage</dd></div>
+          <div><dt>Verfügbarkeit</dt><dd>ab sofort</dd></div>
+        </dl>
+        <a href="#anfrage" class="btn btn-dark">Vollständiges Exposé anfordern</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ÜBER / MAKLER ===================== -->
+  <section class="section" id="ansprechpartner">
+    <div class="container makler">
+      <div class="makler-avatar">
+        <!-- TODO: Foto von Bernhard Wenzler einsetzen (assets/bernhard-wenzler.jpg) -->
+        <span>BW</span>
+      </div>
+      <div class="makler-text">
+        <p class="section-eyebrow">Ihr Ansprechpartner</p>
+        <h2 class="section-title">Bernhard Wenzler</h2>
+        <p>
+          Als Immobilienvermittler aus Rottweil begleite ich Kapitalanleger persönlich und diskret –
+          von der ersten Information bis zum erfolgreichen Abschluss. Sprechen Sie mich an, ich berate Sie gern.
+        </p>
+        <p class="makler-contact">
+          <!-- TODO: echte Kontaktdaten eintragen -->
+          <a href="tel:+4900000000000">+49 (0) 000 000000</a> ·
+          <a href="mailto:info@example.de">info@example.de</a>
+        </p>
+        <a href="#anfrage" class="btn btn-primary">Kontakt aufnehmen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-name">Bernhard Wenzler</span>
+        <span class="brand-sub">Immobilien · Rottweil</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="#anfrage">Anfrage</a>
+      </nav>
+      <p class="footer-copy">© <span id="year"></span> Bernhard Wenzler Immobilien. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
