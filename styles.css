@@ -317,7 +317,39 @@ a { color: var(--gold-dark); }
 .footer-nav { display: flex; gap: 26px; }
 .footer-nav a { color: #c5d0dd; text-decoration: none; font-weight: 500; }
 .footer-nav a:hover { color: var(--gold); }
-.footer-copy { width: 100%; font-size: .82rem; color: #7e8ea1; margin: 8px 0 0; border-top: 1px solid rgba(255,255,255,.1); padding-top: 18px; }
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 8px;
+  border-top: 1px solid rgba(255,255,255,.1);
+  padding-top: 18px;
+}
+.footer-copy { font-size: .82rem; color: #7e8ea1; margin: 0; }
+.footer-partner { display: flex; align-items: center; gap: 12px; }
+.footer-partner-label { font-size: .74rem; letter-spacing: .06em; text-transform: uppercase; color: #7e8ea1; }
+.footer-partner-chip {
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.18);
+}
+.footer-partner-chip img { height: 30px; width: auto; display: block; }
+
+/* Affiliation-Zeile beim Ansprechpartner */
+.makler-affil {
+  font-size: .82rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--gold-dark);
+  font-weight: 600;
+  margin: -6px 0 14px;
+}
 
 /* ---------- Legal pages ---------- */
 .legal { max-width: 820px; margin: 0 auto; padding-block: 56px; }

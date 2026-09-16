@@ -19,9 +19,10 @@ Anfragen aus dem Formular werden **per E-Mail** an den Makler zugestellt (kein e
 ## Stand
 
 **Bereits eingepflegt:** Objektdaten (16 WE, Berlin-Oberschöneweide, Wohn-/Grundstücksfläche,
-Baujahr, Jahresmiete, Angebotspreis, Energieausweis, Modernisierungen), Kontaktdaten
-(Tel. +49 171 7785713, bernhard.wenzler@lbs-sw.de), Impressum verlinkt extern auf
-lbs-immosw.de/impressum. Kein Logo (wie gewünscht) – stattdessen Namens-Wortmarke.
+Baujahr, Jahresmiete, Angebotspreis, Energieausweis, Modernisierungen), Objektfotos + Titelbild
+im Hero, Kontaktdaten (Tel. +49 171 7785713, bernhard.wenzler@lbs-sw.de), Impressum verlinkt
+extern auf lbs-immosw.de/impressum. Eigenmarke „Bernhard Wenzler" als Wortmarke; LBS Immobilien
+dezent als Partner eingebunden (Footer-Badge „In Zusammenarbeit mit" + Zeile beim Ansprechpartner).
 
 ## ✅ Was noch fehlt (vor dem Livegang)
 
