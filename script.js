@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     resultBox.hidden = true;
 
     // Grund-Validierung
-    var required = ["vorname", "nachname", "email", "stadt"];
+    var required = ["vorname", "nachname", "email"];
     var valid = true;
     required.forEach(function (id) {
       var el = document.getElementById(id);
