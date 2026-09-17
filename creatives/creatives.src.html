@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --navy:#14243b; --navy2:#1b3050; --gold:#b8944d; --cream:#faf8f4; --ink:#1f2430;
+    --serif:"Playfair Display",Georgia,serif; --sans:"Inter",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:#555;font-family:var(--sans);}
+  .sheet{display:flex;flex-wrap:wrap;gap:40px;padding:40px;}
+
+  .artboard{position:relative;overflow:hidden;color:#fff;background:var(--navy);}
+  .sq{width:1080px;height:1080px;}
+  .story{width:1080px;height:1920px;}
+  .land{width:1200px;height:628px;}
+
+  .bg{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat;}
+  .content{position:relative;height:100%;display:flex;flex-direction:column;}
+
+  /* Brand */
+  .brand{display:flex;flex-direction:column;line-height:1.05;}
+  .brand .name{font-family:var(--serif);font-weight:700;color:#fff;}
+  .brand .sub{color:var(--gold);text-transform:uppercase;font-weight:600;}
+
+  .eyebrow{display:inline-block;align-self:flex-start;border:1.5px solid rgba(184,148,77,.65);
+    color:var(--gold);text-transform:uppercase;font-weight:600;border-radius:999px;}
+  h1{font-family:var(--serif);font-weight:700;color:#fff;}
+  .sub{color:#d6dfea;font-weight:400;}
+
+  .price{display:inline-flex;align-items:baseline;gap:14px;align-self:flex-start;
+    background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.22);border-radius:14px;backdrop-filter:blur(2px);}
+  .price .lbl{color:#aebccd;text-transform:uppercase;letter-spacing:.12em;}
+  .price .val{font-family:var(--serif);font-weight:700;color:#fff;}
+
+  .cta{display:inline-flex;align-items:center;align-self:flex-start;background:var(--gold);color:#241c0c;
+    font-weight:700;border-radius:999px;box-shadow:0 14px 34px rgba(184,148,77,.4);}
+
+  .facts{display:flex;gap:0;border-top:1px solid rgba(255,255,255,.18);border-bottom:1px solid rgba(255,255,255,.18);}
+  .facts .f{flex:1;display:flex;flex-direction:column;gap:6px;}
+  .facts .f + .f{border-left:1px solid rgba(255,255,255,.18);}
+  .facts .fv{font-family:var(--serif);font-weight:700;color:#fff;}
+  .facts .fl{color:#9fb0c2;}
+
+  .lbs{display:inline-flex;align-items:center;background:#fff;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,.28);}
+  .lbs img{display:block;width:auto;}
+  .partnerrow{display:flex;align-items:center;gap:18px;}
+  .partnerrow .plabel{color:#aebccd;text-transform:uppercase;letter-spacing:.1em;}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <!-- ============ SQUARE A — Fassade (Feed 1:1) ============ -->
+  <div class="artboard sq" id="sq-a">
+    <div class="bg" style="background-image:linear-gradient(180deg,rgba(20,36,59,.62) 0%,rgba(20,36,59,.20) 32%,rgba(20,36,59,.78) 74%,rgba(20,36,59,.96) 100%),url('../assets/8.jpg');background-position:center 28%;"></div>
+    <div class="content" style="padding:72px;justify-content:space-between;">
+      <div class="brand" style="font-size:38px;">
+        <span class="name" style="font-size:44px;">Bernhard Wenzler</span>
+        <span class="sub" style="font-size:18px;letter-spacing:.22em;">Immobilien · Rottweil</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:26px;">
+        <span class="eyebrow" style="font-size:22px;letter-spacing:.2em;padding:12px 24px;">Kapitalanlage · Berlin</span>
+        <h1 style="font-size:82px;line-height:1.03;">Mehrfamilienhaus<br>in Berlin</h1>
+        <p class="sub" style="font-size:32px;">16 Wohneinheiten · Berlin-Oberschöneweide</p>
+        <div class="price" style="padding:18px 26px;">
+          <span class="lbl" style="font-size:19px;">Angebotspreis</span>
+          <span class="val" style="font-size:40px;">3.200.000 €</span>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:8px;">
+          <span class="cta" style="font-size:31px;padding:24px 46px;">Jetzt Exposé anfordern →</span>
+          <span class="lbs" style="padding:12px 18px;"><img src="../assets/IMMO_LOGO-3.svg" style="height:44px;" alt="LBS Immobilien"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ SQUARE B — Innenhof (Feed 1:1) ============ -->
+  <div class="artboard sq" id="sq-b">
+    <div class="bg" style="background-image:linear-gradient(180deg,rgba(20,36,59,.55) 0%,rgba(20,36,59,.15) 30%,rgba(20,36,59,.80) 72%,rgba(20,36,59,.97) 100%),url('../assets/5.jpg');background-position:center 30%;"></div>
+    <div class="content" style="padding:72px;justify-content:space-between;">
+      <div class="brand" style="font-size:38px;">
+        <span class="name" style="font-size:44px;">Bernhard Wenzler</span>
+        <span class="sub" style="font-size:18px;letter-spacing:.22em;">Immobilien · Rottweil</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:28px;">
+        <span class="eyebrow" style="font-size:22px;letter-spacing:.2em;padding:12px 24px;">Exklusive Kapitalanlage</span>
+        <h1 style="font-size:78px;line-height:1.04;">Solide investieren<br>in Berlin</h1>
+        <p class="sub" style="font-size:31px;">Gepflegtes Altbau-Mehrfamilienhaus,<br>16 Einheiten · begrünter Innenhof</p>
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:12px;">
+          <span class="cta" style="font-size:31px;padding:24px 46px;">Exposé anfordern →</span>
+          <span class="lbs" style="padding:12px 18px;"><img src="../assets/IMMO_LOGO-3.svg" style="height:44px;" alt="LBS Immobilien"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ STORY — 9:16 (Story/Reels) ============ -->
+  <div class="artboard story" id="story">
+    <div class="bg" style="background-image:linear-gradient(180deg,rgba(20,36,59,.55) 0%,rgba(20,36,59,.12) 26%,rgba(20,36,59,.55) 58%,rgba(20,36,59,.97) 86%),url('../assets/8.jpg');background-position:center 22%;"></div>
+    <div class="content" style="padding:96px 80px 120px;justify-content:space-between;">
+      <div class="brand" style="font-size:44px;align-items:center;text-align:center;">
+        <span class="name" style="font-size:52px;">Bernhard Wenzler</span>
+        <span class="sub" style="font-size:20px;letter-spacing:.24em;">Immobilien · Rottweil</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:34px;align-items:center;text-align:center;">
+        <span class="eyebrow" style="font-size:24px;letter-spacing:.2em;padding:13px 28px;align-self:center;">Kapitalanlage · Berlin</span>
+        <h1 style="font-size:96px;line-height:1.02;">Mehrfamilien-<br>haus in Berlin</h1>
+        <p class="sub" style="font-size:36px;">Berlin-Oberschöneweide</p>
+
+        <div class="facts" style="width:100%;padding:34px 0;margin-top:6px;">
+          <div class="f" style="align-items:center;"><span class="fv" style="font-size:46px;">16</span><span class="fl" style="font-size:22px;">Wohneinheiten</span></div>
+          <div class="f" style="align-items:center;"><span class="fv" style="font-size:46px;">1.134 m²</span><span class="fl" style="font-size:22px;">Wohnfläche</span></div>
+          <div class="f" style="align-items:center;"><span class="fv" style="font-size:46px;">1914</span><span class="fl" style="font-size:22px;">Baujahr</span></div>
+        </div>
+
+        <div class="price" style="padding:20px 34px;align-self:center;">
+          <span class="lbl" style="font-size:21px;">Angebotspreis</span>
+          <span class="val" style="font-size:48px;">3.200.000 €</span>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:34px;align-items:center;">
+        <span class="cta" style="font-size:38px;padding:30px 64px;">Jetzt Exposé anfordern →</span>
+        <div class="partnerrow">
+          <span class="plabel" style="font-size:19px;">In Zusammenarbeit mit</span>
+          <span class="lbs" style="padding:12px 20px;"><img src="../assets/IMMO_LOGO-3.svg" style="height:50px;" alt="LBS Immobilien"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ LANDSCAPE — 1200×628 (Feed/Link quer) ============ -->
+  <div class="artboard land" id="land">
+    <div class="bg" style="background-image:linear-gradient(90deg,rgba(20,36,59,.95) 0%,rgba(20,36,59,.82) 42%,rgba(20,36,59,.35) 78%,rgba(20,36,59,.15) 100%),url('../assets/8.jpg');background-position:center 32%;"></div>
+    <div class="content" style="padding:56px 60px;justify-content:space-between;align-items:flex-start;">
+      <div class="brand" style="font-size:26px;">
+        <span class="name" style="font-size:30px;">Bernhard Wenzler</span>
+        <span class="sub" style="font-size:13px;letter-spacing:.22em;">Immobilien · Rottweil</span>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:16px;">
+        <span class="eyebrow" style="font-size:16px;letter-spacing:.18em;padding:8px 18px;">Kapitalanlage · Berlin</span>
+        <h1 style="font-size:56px;line-height:1.02;">Mehrfamilienhaus in Berlin</h1>
+        <p class="sub" style="font-size:23px;">16 Wohneinheiten · Oberschöneweide · Angebotspreis 3.200.000 €</p>
+      </div>
+      <div style="display:flex;align-items:center;gap:28px;">
+        <span class="cta" style="font-size:23px;padding:18px 36px;">Jetzt Exposé anfordern →</span>
+        <span class="lbs" style="padding:9px 14px;"><img src="../assets/IMMO_LOGO-3.svg" style="height:34px;" alt="LBS Immobilien"></span>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
