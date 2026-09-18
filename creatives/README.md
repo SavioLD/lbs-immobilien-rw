@@ -17,12 +17,40 @@ Meta skaliert automatisch herunter.*
 - **A/B-Test:** Fassaden- und Innenhof-Variante gegeneinander laufen lassen.
 - **Story/Reels-Safe-Zone:** Kerninfos liegen mittig; oben/unten hält Meta
   Platz für Profil und Button frei – Text ist bewusst nicht ganz am Rand.
-- **Primärtext & Überschrift** (im Ads Manager separat) z. B.:
-  - Primärtext: „Gepflegtes Mehrfamilienhaus in Berlin-Oberschöneweide –
-    16 Wohneinheiten, solide vermietet. Exposé jetzt unverbindlich anfordern."
-  - Überschrift: „Kapitalanlage in Berlin"
-  - Call-to-Action-Button: „Mehr dazu" / „Angebot einholen"
+- **Überschrift:** „Kapitalanlage in Berlin – für Investoren"
+- **Call-to-Action-Button:** „Mehr dazu" / „Angebot einholen"
 - **Zielseite:** die Landingpage (nach Livegang die finale Domain eintragen).
+
+## ⚖️ Pflicht-Caption (Primärtext) – bitte 1:1 so übernehmen
+
+Bei gewerblichen Immobilienanzeigen müssen die Energieausweis-Angaben nach
+**§ 87 GEG** in der Anzeige selbst stehen – daher gehören sie in den Meta-Primärtext:
+
+> 🏙️ **Kapitalanlage in Berlin – Mehrfamilienhaus für Investoren**
+>
+> Gepflegtes Mehrfamilienhaus mit 16 Wohneinheiten in Berlin-Oberschöneweide
+> (Treptow-Köpenick), unweit der neuen Spreeuferpromenade. Vermietetes
+> Anlageobjekt · ca. 1.134 m² Wohnfläche · Baujahr ca. 1914 ·
+> Angebotspreis 3.200.000 €.
+>
+> 👉 Jetzt unverbindlich das Exposé anfordern.
+>
+> Angaben gem. § 87 GEG: Verbrauchsausweis · Endenergieverbrauch 143,80 kWh/(m²·a) ·
+> wesentl. Energieträger Gas · Baujahr 1914 · Energieeffizienzklasse [BITTE AUS
+> ENERGIEAUSWEIS ERGÄNZEN]. Käuferprovision: [Höhe eintragen] inkl. MwSt.
+>
+> Alle Angaben ohne Gewähr, Irrtümer und Zwischenverkauf vorbehalten. Kein
+> Renditeversprechen, keine Anlageberatung. Anbieter/Impressum: lbs-immosw.de/impressum
+
+**Vor dem Schalten zwingend ergänzen:**
+1. **Energieeffizienzklasse** aus dem gültigen Energieausweis (Pflicht nach § 87 GEG,
+   sofern der Ausweis eine Klasse ausweist – bei Ausweisen ab Mai 2014 der Fall).
+2. **Käuferprovision** (Höhe inkl. MwSt.) – oder „provisionsfrei", falls zutreffend.
+
+> **Hinweis:** Keine Rechtsberatung. Dies deckt die üblichen Pflichtangaben
+> (v. a. GEG-Energiedaten) und empfohlenen Haftungshinweise ab. Für die Ad-Schaltung
+> zusätzlich die Meta-Werberichtlinien beachten. Eine finale rechtliche Prüfung
+> (z. B. durch die LBS-Marketingfreigabe) wird empfohlen.
 
 ## Neu erzeugen / anpassen
 Quelle: `creatives.src.html` (alle vier Artboards). Nach Änderungen mit

@@ -48,7 +48,20 @@ dezent als Partner eingebunden (Footer-Badge „In Zusammenarbeit mit" + Zeile b
   und ein Cookie-Banner einbauen. Alternativ kann auf die offizielle Datenschutzseite von
   lbs-immosw.de verlinkt werden (dann Link im Footer + im Formular anpassen).
 
-### 4. Domain & Hosting
+### 4. Pflichtangaben / Recht (WICHTIG vor Livegang)
+Die Seite ist auf Kapitalanleger/Investoren ausgerichtet und enthält die
+Energieausweis-Pflichtangaben nach **§ 87 GEG** (Ausweistyp, Endenergieverbrauch,
+Energieträger, Baujahr). Noch zu ergänzen:
+- **Energieeffizienzklasse** aus dem gültigen Energieausweis eintragen
+  (Objektdaten in `index.html`, aktuell Platzhalter `[aus Energieausweis]`) – Pflicht,
+  sofern der Ausweis eine Klasse ausweist.
+- **Käuferprovision** im Footer-Hinweis eintragen (aktuell Platzhalter) – oder
+  „provisionsfrei", falls zutreffend.
+- Haftungs-/„keine Anlageberatung"-Hinweis ist im Footer hinterlegt.
+- Für die Meta-Anzeige die **Pflicht-Caption** aus `creatives/README.md` verwenden.
+- *Hinweis: keine Rechtsberatung – finale Prüfung empfohlen.*
+
+### 5. Domain & Hosting
 - Einfachste Variante: **GitHub Pages** aktivieren (Settings → Pages → Branch `main`).
   Die Datei `.nojekyll` liegt bereits bei.
 - Eigene Domain kann per `CNAME` verbunden werden.
