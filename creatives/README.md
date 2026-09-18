@@ -37,14 +37,14 @@ Bei gewerblichen Immobilienanzeigen müssen die Energieausweis-Angaben nach
 >
 > Angaben gem. § 87 GEG: Verbrauchsausweis · Endenergieverbrauch 143,80 kWh/(m²·a) ·
 > wesentl. Energieträger Gas · Baujahr 1914 · Energieeffizienzklasse E.
-> Käuferprovision: [Höhe eintragen] inkl. MwSt.
+> Käuferprovision: 7,14 % inkl. MwSt.
 >
 > Alle Angaben ohne Gewähr, Irrtümer und Zwischenverkauf vorbehalten. Kein
 > Renditeversprechen, keine Anlageberatung. Anbieter/Impressum: lbs-immosw.de/impressum
 
-**Vor dem Schalten zwingend ergänzen:**
-1. ✅ Energieeffizienzklasse = **E** (eingetragen).
-2. **Käuferprovision** (Höhe inkl. MwSt.) – oder „provisionsfrei", falls zutreffend.
+**Pflichtangaben vollständig:**
+1. ✅ Energieeffizienzklasse = **E**
+2. ✅ Käuferprovision = **7,14 % inkl. MwSt.**
 
 > **Hinweis:** Keine Rechtsberatung. Dies deckt die üblichen Pflichtangaben
 > (v. a. GEG-Energiedaten) und empfohlenen Haftungshinweise ab. Für die Ad-Schaltung

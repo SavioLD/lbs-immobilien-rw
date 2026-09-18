@@ -53,8 +53,7 @@ Die Seite ist auf Kapitalanleger/Investoren ausgerichtet und enthält die
 Energieausweis-Pflichtangaben nach **§ 87 GEG** (Ausweistyp, Endenergieverbrauch,
 Energieträger, Baujahr). Noch zu ergänzen:
 - ✅ **Energieeffizienzklasse E** eingetragen (Objektdaten + Anzeigen-Caption).
-- **Käuferprovision** im Footer-Hinweis eintragen (aktuell Platzhalter) – oder
-  „provisionsfrei", falls zutreffend.
+- ✅ **Käuferprovision 7,14 % inkl. MwSt.** im Footer-Hinweis + Caption eingetragen.
 - Haftungs-/„keine Anlageberatung"-Hinweis ist im Footer hinterlegt.
 - Für die Meta-Anzeige die **Pflicht-Caption** aus `creatives/README.md` verwenden.
 - *Hinweis: keine Rechtsberatung – finale Prüfung empfohlen.*
