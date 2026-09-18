@@ -26,12 +26,12 @@ dezent als Partner eingebunden (Footer-Badge „In Zusammenarbeit mit" + Zeile b
 
 ## ✅ Was noch fehlt (vor dem Livegang)
 
-### 1. E-Mail-Benachrichtigung aktivieren (der eine wichtige Schritt)
-- Kostenloses Konto anlegen auf **https://web3forms.com** (nur eine E-Mail-Adresse nötig).
-- Als Empfänger `bernhard.wenzler@lbs-sw.de` hinterlegen.
-- Den erzeugten **Access Key** in `script.js` bei `WEB3FORMS_ACCESS_KEY` eintragen.
-- → Danach kommt jede Formular-Anfrage automatisch als E-Mail an. Solange kein Key
-  hinterlegt ist, zeigt das Formular einen entsprechenden Hinweis an.
+### 1. E-Mail-Benachrichtigung ✅ aktiviert
+- Web3Forms Access Key ist in `script.js` hinterlegt.
+- Jede Formular-Anfrage geht automatisch als E-Mail an die im Web3Forms-Konto
+  hinterlegte Empfängeradresse.
+- Empfohlener Test: nach dem Livegang einmal das Formular selbst ausfüllen und
+  prüfen, dass die E-Mail ankommt (ggf. Spam-Ordner checken).
 
 ### 2. Bilder
 - ✅ **Objektfotos** eingebunden (Galerie im Bereich „Das Objekt": Straßenansicht,

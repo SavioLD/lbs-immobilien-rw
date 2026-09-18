@@ -12,7 +12,7 @@
    Kein Server / kein Backend nötig – funktioniert auch auf GitHub Pages.
    ============================================================ */
 
-const WEB3FORMS_ACCESS_KEY = "DEIN-WEB3FORMS-ACCESS-KEY";
+const WEB3FORMS_ACCESS_KEY = "497eaf22-759d-45fc-97b2-e54ca94dadd6";
 
 document.addEventListener("DOMContentLoaded", function () {
   // Jahr im Footer setzen
