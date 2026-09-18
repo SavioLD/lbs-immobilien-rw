@@ -52,9 +52,7 @@ dezent als Partner eingebunden (Footer-Badge „In Zusammenarbeit mit" + Zeile b
 Die Seite ist auf Kapitalanleger/Investoren ausgerichtet und enthält die
 Energieausweis-Pflichtangaben nach **§ 87 GEG** (Ausweistyp, Endenergieverbrauch,
 Energieträger, Baujahr). Noch zu ergänzen:
-- **Energieeffizienzklasse** aus dem gültigen Energieausweis eintragen
-  (Objektdaten in `index.html`, aktuell Platzhalter `[aus Energieausweis]`) – Pflicht,
-  sofern der Ausweis eine Klasse ausweist.
+- ✅ **Energieeffizienzklasse E** eingetragen (Objektdaten + Anzeigen-Caption).
 - **Käuferprovision** im Footer-Hinweis eintragen (aktuell Platzhalter) – oder
   „provisionsfrei", falls zutreffend.
 - Haftungs-/„keine Anlageberatung"-Hinweis ist im Footer hinterlegt.

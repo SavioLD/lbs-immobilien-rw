@@ -36,15 +36,14 @@ Bei gewerblichen Immobilienanzeigen müssen die Energieausweis-Angaben nach
 > 👉 Jetzt unverbindlich das Exposé anfordern.
 >
 > Angaben gem. § 87 GEG: Verbrauchsausweis · Endenergieverbrauch 143,80 kWh/(m²·a) ·
-> wesentl. Energieträger Gas · Baujahr 1914 · Energieeffizienzklasse [BITTE AUS
-> ENERGIEAUSWEIS ERGÄNZEN]. Käuferprovision: [Höhe eintragen] inkl. MwSt.
+> wesentl. Energieträger Gas · Baujahr 1914 · Energieeffizienzklasse E.
+> Käuferprovision: [Höhe eintragen] inkl. MwSt.
 >
 > Alle Angaben ohne Gewähr, Irrtümer und Zwischenverkauf vorbehalten. Kein
 > Renditeversprechen, keine Anlageberatung. Anbieter/Impressum: lbs-immosw.de/impressum
 
 **Vor dem Schalten zwingend ergänzen:**
-1. **Energieeffizienzklasse** aus dem gültigen Energieausweis (Pflicht nach § 87 GEG,
-   sofern der Ausweis eine Klasse ausweist – bei Ausweisen ab Mai 2014 der Fall).
+1. ✅ Energieeffizienzklasse = **E** (eingetragen).
 2. **Käuferprovision** (Höhe inkl. MwSt.) – oder „provisionsfrei", falls zutreffend.
 
 > **Hinweis:** Keine Rechtsberatung. Dies deckt die üblichen Pflichtangaben
