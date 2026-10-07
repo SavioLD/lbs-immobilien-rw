@@ -5,10 +5,14 @@ Fertige Werbemittel für Facebook/Instagram im Design der Landingpage
 
 | Datei | Format | Empfohlene Platzierung |
 |-------|--------|------------------------|
-| `feed-1080x1080-fassade.jpg`  | 1:1 (1080×1080) | Facebook/Instagram Feed |
+| `feed-1080x1350-fassade.jpg`  | 4:5 (1080×1350) | **Feed – empfohlen** (beste Performance) |
+| `feed-1080x1080-fassade.jpg`  | 1:1 (1080×1080) | Feed (quadratisch) |
 | `feed-1080x1080-innenhof.jpg` | 1:1 (1080×1080) | Feed – 2. Variante für A/B-Test |
 | `story-1080x1920.jpg`         | 9:16 (1080×1920) | Stories & Reels |
 | `link-1200x628.jpg`           | 1.91:1 (1200×628) | Feed-Link / rechte Spalte |
+
+*Layout: Foto oben, ruhige Infofläche unten (Headline, Eckdaten, Preis, CTA) –
+klar lesbar statt Text über dem Foto.*
 
 *Auflösung: in 2× gerendert (z. B. Feed = 2160×2160) für maximale Schärfe;
 Meta skaliert automatisch herunter.*
