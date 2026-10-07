@@ -108,9 +108,9 @@ a { color: var(--gold-dark); }
   background:
     radial-gradient(1200px 500px at 85% -10%, rgba(184,148,77,.20), transparent 60%),
     linear-gradient(160deg, rgba(20,36,59,.94) 0%, rgba(27,48,80,.88) 50%, rgba(36,64,95,.84) 100%),
-    url("assets/8.jpg");
+    url("assets/8-fassade.jpg");
   background-size: cover;
-  background-position: center 30%;
+  background-position: center 40%;
   background-repeat: no-repeat;
   color: #eaf0f7;
   padding-block: 72px 84px;
