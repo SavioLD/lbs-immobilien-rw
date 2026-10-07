@@ -95,9 +95,6 @@ a { color: var(--gold-dark); }
   padding-block: 14px;
   gap: 16px;
 }
-.header-left { display: flex; align-items: center; gap: 18px; }
-.brand-partner { display: flex; align-items: center; padding-left: 18px; border-left: 1px solid var(--line); }
-.brand-partner img { height: 36px; width: auto; display: block; }
 .brand { display: flex; flex-direction: column; text-decoration: none; line-height: 1.1; }
 .brand-logo { height: 44px; width: auto; }
 .brand-name { font-family: var(--font-head); font-size: 1.35rem; font-weight: 700; color: var(--navy); }
@@ -162,15 +159,12 @@ a { color: var(--gold-dark); }
 .fact-label { font-size: .78rem; color: #97a6b8; }
 .hero-cta-mobile { display: none; margin-top: 28px; }
 .hero-partner {
-  display: inline-flex; align-items: center; gap: 14px; align-self: flex-start;
-  margin: 0 0 24px;
-  background: rgba(255,255,255,.07);
-  border: 1px solid rgba(255,255,255,.16);
-  padding: 10px 10px 10px 18px; border-radius: 12px;
+  display: inline-flex; align-items: center; gap: 12px; align-self: flex-start;
+  margin: 2px 0 22px;
 }
-.hero-partner-label { font-size: .82rem; letter-spacing: .08em; text-transform: uppercase; color: #c5d0dd; font-weight: 600; }
-.hero-partner-chip { display: inline-flex; align-items: center; background: #fff; border-radius: 9px; padding: 9px 13px; }
-.hero-partner-chip img { height: 42px; width: auto; display: block; }
+.hero-partner-label { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: #9fb0c2; font-weight: 600; }
+.hero-partner-chip { display: inline-flex; align-items: center; background: #fff; border-radius: 7px; padding: 6px 10px; }
+.hero-partner-chip img { height: 28px; width: auto; display: block; }
 .hero-tag {
   display: inline-block; align-self: flex-start;
   margin: -8px 0 20px;
@@ -399,7 +393,6 @@ a { color: var(--gold-dark); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
-  .brand-partner { display: none; }
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
   .form-card { position: static; }
   .objekt-grid { grid-template-columns: 1fr; gap: 28px; }
