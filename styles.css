@@ -353,11 +353,11 @@ a { color: var(--gold-dark); }
   display: inline-flex;
   align-items: center;
   background: #fff;
-  border-radius: 8px;
-  padding: 8px 12px;
+  border-radius: 10px;
+  padding: 11px 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,.18);
 }
-.footer-partner-chip img { height: 30px; width: auto; display: block; }
+.footer-partner-chip img { height: 46px; width: auto; display: block; }
 
 /* Affiliation-Zeile beim Ansprechpartner */
 .makler-affil {
